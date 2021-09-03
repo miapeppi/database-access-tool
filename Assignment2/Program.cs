@@ -11,7 +11,7 @@ namespace Assignment2
         static void Main(string[] args)
         {
             // Creating the Repository with specific server name of the database
-            ICustomerRepository customerRepo = new CustomerRepository(@"5CG05206QS\SQLEXPRESS", "Chinook");
+            ICustomerRepository customerRepo = new CustomerRepository(@"5CG05206QV\SQLEXPRESS", "Chinook");
 
             int method = 9;
 
